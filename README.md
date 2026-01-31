@@ -52,4 +52,8 @@ This project was created to practice:
 * Telegram bot development  
 * JSON data parsing  
 * Working with external services  
+**********************
+
+##### 🧠 Author Note  
+This bot was built as a learning project to explore APIs and Telegram automation.
 
