@@ -14,7 +14,7 @@ The bot uses a weather API to fetch real-time data and responds directly in Tele
 3. The API returns weather data in JSON format  
 4. The bot formats the result and replies to the user  
 *******************
-##🛠 Tech Stack  
+## 🛠 Tech Stack  
 * Python  
 * requests — API requests  
 * json — parsing weather data  
@@ -22,7 +22,7 @@ The bot uses a weather API to fetch real-time data and responds directly in Tele
 * Weather API service  
 * Bot token (Telegram)  
 ******************
-#🔐 API & Tokens Security  
+# 🔐 API & Tokens Security  
 ⚠️ Important:  
 Bot tokens and API keys are not included in this repository for security reasons.  
 You must add your own credentials in the code.  
