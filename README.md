@@ -21,3 +21,21 @@ The bot uses a weather API to fetch real-time data and responds directly in Tele
 * telebot — Telegram bot API  
 * Weather API service  
 * Bot token (Telegram)  
+******************
+#🔐 API & Tokens Security  
+⚠️ Important:  
+Bot tokens and API keys are not included in this repository for security reasons.  
+You must add your own credentials in the code.  
+
+#### Example:  
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  
+WEATHER_API_KEY = "YOUR_API_KEY"  
+
+## Example Usage   
+You:/start  
+Bot:привет имя/фамилия  я бот который выдает погоду по команде /weather  
+You:/weather  
+Bot: Напиши название города:
+You:Canada
+Bot:Сейчас погода: 9.07 °C   
+********************************
