@@ -40,7 +40,7 @@ You: Canada
 Bot: Сейчас погода: 9.07 °C     
 ********************************  
 # 🚀 Installation & Run    
-git clone https://github.com/yourusername/weather-telegram-bot  
+git clone https://github.com/ZeroBuglab/Weather_Telegram_Bot   
 cd weather-telegram-bot  
 pip install requests pyTelegramBotAPI  
 python main.py   
