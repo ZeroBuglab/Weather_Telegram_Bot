@@ -31,11 +31,25 @@ You must add your own credentials in the code.
 BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  
 WEATHER_API_KEY = "YOUR_API_KEY"  
 
-## Example Usage   
-You:/start  
-Bot:привет имя/фамилия  я бот который выдает погоду по команде /weather  
-You:/weather  
-Bot: Напиши название города:
-You:Canada
-Bot:Сейчас погода: 9.07 °C   
-********************************
+## Example Usage     
+You: /start    
+Bot: привет имя/фамилия  я бот который выдает погоду по команде /weather     
+You: /weather    
+Bot: Напиши название города:  
+You: Canada   
+Bot: Сейчас погода: 9.07 °C     
+********************************  
+# 🚀 Installation & Run    
+git clone https://github.com/yourusername/weather-telegram-bot  
+cd weather-telegram-bot  
+pip install requests pyTelegramBotAPI  
+python main.py   
+**************  
+## 🎯 Purpose of the Project    
+
+This project was created to practice:    
+* API integration  
+* Telegram bot development  
+* JSON data parsing  
+* Working with external services  
+
