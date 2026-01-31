@@ -2,10 +2,12 @@ from telebot import TeleBot
 import requests
 import telebot
 import json
-API='3fe0e2348031d7a1fabcf78487e89811'
 
 
-TOKEN="8234999691:AAFyTz6zqqGPfgdZNMv1vwbzr6UxEMvH1iw"
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+WEATHER_API_KEY = "YOUR_API_KEY"
+
+
 bot: TeleBot=telebot.TeleBot(TOKEN)
 
 
@@ -37,3 +39,4 @@ def get_weather(message):
 
 
 bot.polling(none_stop=True)
+
